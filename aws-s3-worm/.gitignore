@@ -1,0 +1,3 @@
+/target/
+aws-instance-info/target/
+**/*.rs.bk
