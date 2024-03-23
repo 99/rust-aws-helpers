@@ -52,10 +52,11 @@ cargo run -- --exclude=t3.medium
 
 ### Example
 Here's an example of how the output will look:
-
+```
 +------------+-----------------+------------+-----------+-------------------+-------------+
 | Account    | Instance        | Type       | Region    | Created           | Tags        |
 +------------+-----------------+------------+-----------+-------------------+-------------+
 | profile1   | i-abcdef12345   | m5.large   | us-east-1 | DateTime { seconds: 1667473025, subsecond_nanos: 0 }  | Tag1: Value |
 | profile2   | i-12345abcdef   | t2.micro   | us-west-2 | DateTime { seconds: 1667473025, subsecond_nanos: 0 }  | Tag2: Value |
 +------------+-----------------+------------+-----------+-------------------+-------------+
+```
